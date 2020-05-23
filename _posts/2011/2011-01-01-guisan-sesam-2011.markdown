@@ -1,0 +1,28 @@
+---
+layout: post
+title: "SESAM--a new framework integrating macroecological and species distribution models for predicting spatio-temporal patterns of species assemblages"
+author: "Guisan, Antoine and Rahbek, Carsten"
+categories: reference
+DOI:
+citationkey: guisan2011sesam
+tags:
+  - sesam
+  - biodiversity
+  - model
+  - ecology
+date: '2011-01-01 11:27'
+modified: '2020-04-16 T18:17:25.000Z'
+comments: true
+share: true
+abstract: "Abstract"
+---
+@article{guisan2011sesam,
+  title={SESAM--a new framework integrating macroecological and species distribution models for predicting spatio-temporal patterns of species assemblages},
+  author={Guisan, Antoine and Rahbek, Carsten},
+  journal={Journal of Biogeography},
+  volume={38},
+  number={8},
+  pages={1433--1444},
+  year={2011},
+  publisher={Wiley Online Library}
+}

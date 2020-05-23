@@ -1,0 +1,26 @@
+---
+layout: post
+title: "GLOBIO-Aquatic, a global model of human impact on the biodiversity of inland aquatic ecosystems"
+author: "Janse, JH and Kuiper, JJ and Weijters, MJ and Westerbeek, EP and Jeuken, MHJL and Bakkenes, M and Alkemade, R and Mooij, WM and Verhoeven, JTA"
+categories: reference
+DOI: https://doi.org/10.1016/j.envsci.2014.12.007
+citationkey: janse2015globio
+tags:
+  - biodiversity
+  - GLOBIO
+  - Aquatic
+date: '2019-11-08 11:27'
+modified: '2019-12-28 T18:17:25.000Z'
+comments: true
+share: true
+abstract: "Abstract"
+---
+@article{janse2015globio,
+  title={GLOBIO-Aquatic, a global model of human impact on the biodiversity of inland aquatic ecosystems},
+  author={Janse, JH and Kuiper, JJ and Weijters, MJ and Westerbeek, EP and Jeuken, MHJL and Bakkenes, M and Alkemade, R and Mooij, WM and Verhoeven, JTA},
+  journal={Environmental Science \& Policy},
+  volume={48},
+  pages={99--114},
+  year={2015},
+  publisher={Elsevier}
+}

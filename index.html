@@ -1,0 +1,33 @@
+---
+layout: page
+title: "BiodivERsA proposal 2020"
+excerpt: "BIODIVERSITY AND CLIMATE CHANGE"
+image: rainfall-delta_3B43_trmm_2001-2016_mk-z-ts-model
+search_omit: true
+---
+
+<h2> Wetlands in dry regions–cornerstones of biodiversity and societal support</h2>
+
+Proposal submitted to BiodivERsA spring 2020.
+This blog only lists the references.
+
+<h1>Drafts<h1>
+<ul class="post-list">
+{% for post in site.categories.blog %}
+  <li><article><a href="{{ site.url }}{{ post.url }}">{{ post.title }} <span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time></span>{% if post.excerpt %} <span class="excerpt">{{ post.excerpt | remove: '\[ ... \]' | remove: '\( ... \)' | markdownify | strip_html | strip_newlines | escape_once }}</span>{% endif %}</a></article></li>
+{% endfor %}
+</ul>
+
+<h1>References<h1>
+<ul class="post-list">
+{% for post in site.categories.reference %}
+  <li><article><a href="{{ site.url }}{{ post.url }}">{{ post.title }} <span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y" }}</time></span>{% if post.author %} <span class="excerpt">{{ post.author | remove: '\[ ... \]' | remove: '\( ... \)' | markdownify | strip_html | strip_newlines | escape_once }}</span>{% endif %}</a></article></li>
+{% endfor %}
+</ul>
+
+<h1>Literature<h1>
+<ul class="post-list">
+{% for post in site.categories.literature %}
+  <li><article><a href="{{ site.url }}{{ post.url }}">{{ post.title }} <span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y" }}</time></span>{% if post.author %} <span class="excerpt">{{ post.author | remove: '\[ ... \]' | remove: '\( ... \)' | markdownify | strip_html | strip_newlines | escape_once }}</span>{% endif %}</a></article></li>
+{% endfor %}
+</ul>

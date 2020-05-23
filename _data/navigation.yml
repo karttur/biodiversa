@@ -1,0 +1,28 @@
+# Site navigation links
+- title: Karttur
+  url: https://karttur.github.io
+  include: 'N'
+
+- title: Fount
+  url: /
+  include: 'N'
+
+- title: Drafts
+  url: /draft/
+  include: 'N'
+
+- title: References
+  url: /reference/
+  include: 'N'
+
+- title: Literature
+  url: /literature/
+  include: 'N'
+
+- title: Search
+  url: /search/
+  include: 'N'
+
+- title: About
+  url: /about/
+  include: 'N'
